@@ -1,4 +1,13 @@
+@font-face {
+  font-family: 'PokemonGSK2';
+  src: url('./font/PokemonGSK2.woff2') format('woff2'),
+    url('./font/PokemonGSK2.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
 * {
+  font-family: 'PokemonGSK2';
   box-sizing: border-box;
 }
 
